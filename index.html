@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rohan S — Portfolio</title>
+
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Rohan S</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certs" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="menu-btn" aria-label="menu"><i class="fa fa-bars"></i></button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="hero-left">
+      <h1>Hi, I’m <span>Rohan S</span></h1>
+      <p class="role">Undergraduate Student — BCA | Aspiring Software Developer</p>
+      <p class="hero-desc">
+        Highly motivated and detail-oriented Computer Science undergraduate from Bengaluru. I build practical projects,
+        learn full-stack technologies and contribute to engineering internships and research-based initiatives.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn">See Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-meta">
+        <span><i class="fa fa-envelope"></i> <a href="mailto:rohans9844@gmail.com">rohans9844@gmail.com</a></span>
+        <span><i class="fa fa-phone"></i> <a href="tel:+918088582085">+91 80885 82085</a></span>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="profile-card">
+        <img src="https://source.unsplash.com/400x400/?portrait,student" alt="Rohan S">
+        <div class="profile-info">
+    <img src="images/profile.jpg" alt="Rohan S" style="width:80px; height:80px; border-radius:50%; object-fit:cover; margin-bottom:10px;">
+    <h3>Rohan S</h3>
+    <p>BCA Student — Kristu Jayanti College</p>
+    <a href="https://www.linkedin.com/in/rohan-s-72871028a/" class="link">LinkedIn</a>
+</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section glass">
+    <h2 class="section-title">About Me</h2>
+    <div class="two-col">
+      <div>
+        <p>
+          I am a motivated and detail-oriented undergraduate student pursuing BCA at Kristu Jayanti College, Bengaluru.
+          I have a solid foundation in programming and hands-on experience through projects, workshops and an industry internship.
+          I enjoy applying problem-solving skills to build useful applications and learning new technologies.
+        </p>
+        <ul class="about-list">
+          <li><strong>Education:</strong> BCA — Kristu Jayanti College (2023–2026)</li>
+          <li><strong>Languages:</strong> Kannada, English, Hindi, Telugu, Tamil</li>
+          <li><strong>Willing to relocate:</strong> Yes — Pan India</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Internship — Bharat Electronics Limited (BEL)</h3>
+        <p>
+          Project Intern — Centre for Learning and Development, Bengaluru (June 2025 – July 2025). Contributed to the ADFCR
+          project (Radar Control systems): assisted in software development, module implementation and test-case preparation
+          for system performance testing.
+        </p>
+        <h3>Research & Projects</h3>
+        <ul>
+          <li><strong>Life Line Project</strong> — Improving healthcare accessibility via tech solutions.</li>
+          <li><strong>Blood Bank Management System</strong> — VB.NET app for donor/recipient & stock management.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill"><h4>C</h4><div class="bar"><span style="width:90%"></span></div></div>
+      <div class="skill"><h4>C++</h4><div class="bar"><span style="width:85%"></span></div></div>
+      <div class="skill"><h4>Python</h4><div class="bar"><span style="width:80%"></span></div></div>
+      <div class="skill"><h4>MySQL</h4><div class="bar"><span style="width:75%"></span></div></div>
+      <div class="skill"><h4>HTML/CSS</h4><div class="bar"><span style="width:78%"></span></div></div>
+      <div class="skill"><h4>VB.NET / MS SQL / MongoDB</h4><div class="bar"><span style="width:70%"></span></div></div>
+      <div class="skill"><h4>Tools</h4><div class="bar"><span style="width:72%"></span></div></div>
+      <div class="skill"><h4>Soft Skills</h4><div class="bar"><span style="width:85%"></span></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section glass">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-image" style="background-image:url('images/li.jpg');"></div>
+        <div class="project-body">
+          <h3>Life Line Project</h3>
+          <p>Connecting patients with healthcare resources.</p>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="project-image" style="background-image:url('images/bl.jpg');"></div>
+        <div class="project-body">
+          <h3>Blood Bank Management System</h3>
+          <p>VB.NET app for donor/recipient & stock management.</p>
+        </div>
+      </article>
+ <a href="https://www.linkedin.com/posts/rohan-s-rohan-s-72871028a_certificate-of-internship-from-belbharat-activity-7361754490162561025-MGrP" target="_blank" class="project-card">
+      <article class="project-card">
+        <div class="project-image" style="background-image:url('images/in.jpg');"></div>
+        <div class="project-body">
+          <h3>Internship — BEL</h3>
+          <p>Radar Control system modules & test case preparation.</p>
+        </div>
+      </article>
+    </div>
+</a>
+  </section>
+
+<!-- CERTIFICATIONS -->
+<section id="certs" class="section">
+  <h2 class="section-title">Certifications & Achievements</h2>
+  <div class="projects-grid">
+    <!-- NASSCOM -->
+    <a href="https://www.linkedin.com/posts/rohan-s-rohan-s-72871028a_certificate-of-digital-engineering-activity-7361036551205621760-N7YK" target="_blank" class="project-card">
+      <div class="project-image" style="background-image:url('images/certificate.jpg');"></div>
+      <div class="project-body">
+        <h3>Digital Engineering (NASSCOM)</h3>
+        <p>Assessment on Digital Engineering — NASSCOM</p>
+      </div>
+    </a>
+
+    <!-- Salesforce -->
+    <a href="https://www.linkedin.com/posts/rohan-s-rohan-s-72871028a_certificate-of-salesforce-administration-activity-7354161344197107714-YAKh" target="_blank" class="project-card">
+      <div class="project-image" style="background-image:url('images/bhai.jpg');"></div>
+      <div class="project-body">
+        <h3>Salesforce Administrator Explorer</h3>
+        <p>Assessment Certificate — Salesforce</p>
+      </div>
+    </a>
+<!-- Network Fundamentals -->
+<a href="https://www.linkedin.com/posts/rohan-s-rohan-s-72871028a_certificate-of-network-fundamentals-activity-7361076905732677632-DCEk?utm_source=social_share_send&utm_medium=android_app" target="_blank" class="project-card">
+  <div class="project-image" style="background-image:url('images/ro.jpg');"></div>
+  <div class="project-body">
+    <h3>Network Fundamentals</h3>
+    <p>Certificate of Completion — Networking Basics</p>
+  </div>
+</a>
+    </div>
+</section>
+   
+  <!-- CONTACT -->
+  <section id="contact" class="section glass contact-section">
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div>
+        <p><strong>Email:</strong> <a href="mailto:rohans9844@gmail.com">rohans9844@gmail.com</a></p>
+        <p><strong>Phone:</strong> <a href="tel:+918088582085">+91 80885 82085</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/rohan-s-rohan-s-72871028a" target="_blank">rohan-s-rohan-s-72871028a</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>© <span id="year"></span> Rohan S — Built with ♥</div>
+  </footer>
+
+</body>
+</html>
